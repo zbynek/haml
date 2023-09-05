@@ -1074,8 +1074,8 @@ Filters can have Ruby code interpolated with `#{}`. For example:
 
     - flavor = "raspberry"
     #content
-      :textile
-        I *really* prefer _#{flavor}_ jam.
+      :markdown
+        I **really** prefer *#{flavor}* jam.
 
 is compiled to
 

@@ -9,13 +9,7 @@ and expressing inline formatting are two very different problems.
 Haml is mostly designed for structure,
 so the best way to deal with formatting is to leave it to other languages
 that are designed for it.
-You could use Textile:
-
-    %p
-      :textile
-        I like *cake*!
-
-or Markdown:
+You could use Markdown:
 
     %p
       :markdown
